@@ -44,9 +44,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		683D57433379F6D08E3FFF3C /* Pods_iOSAPIInjector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAPIInjector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A6C67CB0CD06AC5FE4A5E18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DB153A007BDD5325594F904D /* iOSAPIInjector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = iOSAPIInjector.podspec; path = ../iOSAPIInjector.podspec; sourceTree = "<group>"; };
-		EB4A0ED98AD7F46828D50DD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6A6C67CB0CD06AC5FE4A5E18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DB153A007BDD5325594F904D /* iOSAPIInjector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOSAPIInjector.podspec; path = ../iOSAPIInjector.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EB4A0ED98AD7F46828D50DD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				3F922B87EAF31B00D268C987 /* Pods-iOSAPIInjector_Tests.debug.xcconfig */,
 				0258E15F7A0437266061FBAF /* Pods-iOSAPIInjector_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

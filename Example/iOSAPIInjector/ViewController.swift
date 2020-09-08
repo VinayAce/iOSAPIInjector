@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import iOSAPIInjector
 
 class ViewController: UIViewController {
-
+    
+    let network = AceAPIInjector.getInstance()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

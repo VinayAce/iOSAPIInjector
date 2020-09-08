@@ -1,0 +1,16 @@
+PODS:
+  - iOSAPIInjector (0.1.0)
+
+DEPENDENCIES:
+  - iOSAPIInjector (from `../`)
+
+EXTERNAL SOURCES:
+  iOSAPIInjector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSAPIInjector: 4f294933309c354cdffe33720af4336d4b3bd368
+
+PODFILE CHECKSUM: 3a0a9f47ce73d64ac1a2e1a8e336fbe84af3ef6c
+
+COCOAPODS: 1.9.3

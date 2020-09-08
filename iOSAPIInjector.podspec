@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'iOSAPIInjector'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of iOSAPIInjector.'
+  s.summary          = 'Network Helper to deal with data.'
+  s.swift_version    = '4.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Dealing with API by injecting it to use the data which made developers job easy.
                        DESC
 
   s.homepage         = 'https://github.com/VinayAce/iOSAPIInjector'
